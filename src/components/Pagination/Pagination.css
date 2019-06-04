@@ -1,0 +1,26 @@
+ul.pagination {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li.page-item.active button.page-link {
+  color: #4a4a4d;
+  background-color: #e3e7eb;
+  border-color: #ced4da;
+}
+
+ul.pagination button.page-link {
+  padding: 10px 10px;
+  min-width: 20px;
+  text-align: center;
+  border-color: #ced4da;
+}
+
+ul.pagination button.page-link:hover {
+  background-color: #f4f4f4;
+}

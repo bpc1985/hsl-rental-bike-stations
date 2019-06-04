@@ -1,0 +1,63 @@
+.flexContainer {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+tr {
+  overflow-x: scroll;
+}
+th,
+td {
+  padding: 15px 15px;
+  vertical-align: middle;
+}
+thead {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Lato;
+  border: 1px solid transparent;
+
+  max-width: 100%;
+  font-weight: 900;
+  line-height: 24px;
+  mix-blend-mode: normal;
+
+  color: rgba(51, 51, 51, .5);
+  background: rgba(255, 255, 255, .9);
+}
+thead tr th {
+  padding: 15px 15px;
+  border: 1px solid transparent;
+
+
+  text-align: left;
+}
+tbody {
+  max-width: 100%;
+}
+tbody tr:nth-child(odd) {
+  background: #f0f0f2;
+}
+tbody tr:hover {
+  background: #b68ff5;
+}
+td {
+  padding: 15px 15px;
+}
+
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 12px;
+  width: 6px;
+  border-bottom: 4px solid #78b13f;
+  border-right: 4px solid #78b13f;
+}
